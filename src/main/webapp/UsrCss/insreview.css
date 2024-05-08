@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+
+
+body{
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  margin:10px auto 20px; /* 위 여백을 10px로 변경 */
+  font-size:16px;
+  font-family: 'Poppins', sans-serif;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+#app{
+  width: 500px;
+  height: 600px;
+  padding: 30px 30px;
+  margin: 0 auto;
+  border: 1px solid #777;
+  background-color: #fff;
+}
+
+
+*{
+    box-sizing:border-box;
+  }
+  header{
+    width:100%;
+    font-size:2em;
+    text-align:center;
+    background:#34495e;
+    color:#fff;
+    padding:0.5em;
+    margin-bottom: 10px;
+  }
+
+  img{
+    max-height: 100%;
+    max-width:100%;
+    display:block;
+  }
+  textarea{
+    width:100%;
+    border:none;
+    background:#F6F6F6;
+    margin:10px 0;
+    height:100px;
+    padding:1em;
+  }
+  .submit{
+    float:right;
+    width:20%;
+    height:40px;
+    border:none;
+    background:#2ecc71;
+    font-size:16px;
+    color:white;
+  }
+  .review-photo{
+    height:200px;
+    width:200px;
+    display:inline-block;
+    margin-right:3em;
+  }
+
+  .stars {
+    margin-left: 30%;
+    display: flex;
+  }
+  
+  .star1, .star2, .star3, .star4, .star5 {
+    border: none;
+    background-color: transparent;
+    margin-right: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  .info {
+    background-color: #fff;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.text-container {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.title-container {
+   margin: 10px;
+}

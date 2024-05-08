@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300);
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    line-height: 1.5;
+}
+
+.title{
+  width: 30px;
+  height: 30px;
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select {
+  display: flex;
+  flex-wrap: wrap; 
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+.img-select .img-item {
+  width: 90px;  
+  height: 100px; 
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    grid-column: 1 / -1; /* 추가된 코드 */
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    color: #12263a;
+    margin: 1rem 0;
+}
+.product-price{
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 400px;
+}
+.product-price span{
+    font-weight: 400;
+}
+.new-price span{
+    color: #256eff;
+}
+.purchase-info .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+}
+.purchase-info input{
+    width: 60px;
+}
+.purchase-info .btn{
+    cursor: pointer;
+    color: #fff;
+}
+
+.purchase-info .btn:last-of-type{
+    background: #000;
+}
+.purchase-info .btn:hover{
+    opacity: 0.9;
+}
+  .card{
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-rows: min-content 1fr 1fr;
+      grid-template-rows: min-content min-content  400px;
+      grid-gap: 1.5rem;
+  }
+  .card-wrapper{
+      height: 1000vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: auto;
+  }
+  .product-imgs{
+      width: 600px;
+      height: 1000px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .product-content{
+      padding-top: 0;
+  }
+  
+  
+.cpc-product-title {
+    font-family: "Fjalla One", Arial, sans serif;
+    color: #444444;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 84px;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 4.5px;
+}
+
+
+.cpc-product-desc,
+.cpc-product-color-title,
+.cpc-product-size-title,
+.cpc-product-qty-title {
+	  text-align: center;
+    font-family: "Fjalla One", Arial, sans serif;
+    color: #444444;
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 0;
+}
+
+
+.cpc-color-section,
+.cpc-size-section {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+  border-right: 1px solid #dfdfdf;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 530px) {
+  .cpc-color-section,
+.cpc-size-section,
+.cpc-qty-section {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .cpc-qty-section {
+    margin-bottom: 0px;
+  }
+}
+
+.cpc-product-size-select, .cpc-product-qty-select {
+  font-family: "Fjalla One", Arial, Helvetica, sans-serif;
+  color: #b4b4b4;
+  font-size: 26px;
+  font-weight: 600;
+  border: 0px;
+}
+
+
+.cpc-qty-section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cpc-atc-share-section {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.cpc-atc-share-section a {
+  text-decoration: none;
+}
+
+

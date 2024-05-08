@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.mid{
+    text-align: center;
+vertical-align: middle;
+margin-left: 0%;
+}
+.btn btn-gray{
+    background-color :black;
+}
+.img-responsive{
+   width: 120px;
+   height: 120px;
+   
+}

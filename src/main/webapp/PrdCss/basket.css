@@ -1,0 +1,26 @@
+@charset "UTF-8";
+.img-responsive{
+	width: 100px;
+	height: 100px;
+	
+}
+.pay{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	 background-color:transparent;
+	 border-radius: 7%;
+	 height: 40px;
+	 
+}
+.payment{
+	background-color: deepskyblue;
+}
+td,th{
+    text-align: center;
+vertical-align: middle;
+margin-left: 0%;
+}
+.mid{
+	text-align: center;
+vertical-align: middle;
+margin-left: 0%;
+}
